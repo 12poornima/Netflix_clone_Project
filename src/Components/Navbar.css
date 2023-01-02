@@ -7,7 +7,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background-image: url(https://eftm.com/wp-content/uploads/2022/04/beasts.0.jpg);
+    background-image: url(https://images6.alphacoders.com/106/thumb-1920-1067101.png);
     background-size: cover;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
@@ -24,11 +24,15 @@ body::before {
 
 nav {
     display: flex;
+    /* position: absolute; */
+    top: 0;
+    left: 0;
     justify-content: space-around;
     width: 100%;
     height: 10vh;
     color: white;
     align-items: center;
+    padding: 30px 100px;
     /* position: relative; */
 }
 
@@ -52,6 +56,7 @@ nav::before {
     justify-content: center;
     align-items: center;
     list-style: none;
+    text-decoration: none;
 }
 
 .list li {
@@ -59,4 +64,73 @@ nav::before {
     font-size: 1.2rem;
     color: white;
     text-decoration: none
+}
+
+.list li:hover {
+    color: rgb(250, 8, 8);
+}
+
+.srch {
+    position: relative;
+    width: 300px;
+    height: 40px;
+}
+
+.srch input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: rgb(250, 249, 249);
+    background: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    outline: none;
+    border-radius: 4px;
+    padding: 0 5px 0 25px;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    max-width: 900px;
+    padding: 59px;
+}
+
+.title {
+    max-width: 350px;
+}
+
+.banner {
+    color: rgba(255, 255, 2555, 0.5);
+    font-weight: 500;
+}
+
+.banner span {
+    padding: 0 10px;
+    border-right: 1px solid rgba(255, 255, 2555, 0.5);
+}
+
+.banner span:first-child {
+    padding-left: 0;
+}
+
+.banner span:last-child {
+    border-right: none;
+}
+
+.banner span i {
+    background: #de0611;
+    padding: 0 8px;
+    display: inline-block;
+    font-style: normal;
+    border-radius: 2px;
+}
+
+.para {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: white;
+    margin: 5px 0 20px;
 }
