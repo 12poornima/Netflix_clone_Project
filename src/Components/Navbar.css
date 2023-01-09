@@ -15,7 +15,7 @@ body {
 body::before {
     content: "";
     position: absolute;
-    background-color: black;
+    background-color: rgb(4, 4, 4);
     width: 100%;
     height: 100%;
     z-index: -1;
@@ -27,19 +27,20 @@ nav {
     /* position: absolute; */
     top: 0;
     left: 0;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 100%;
     height: 10vh;
     color: white;
+    background-color: black;
     align-items: center;
-    padding: 30px 100px;
+
     /* position: relative; */
 }
 
 nav::before {
     content: "";
     position: absolute;
-    background-color: black;
+
     width: 100%;
     height: 10%;
     z-index: -1;
@@ -47,8 +48,10 @@ nav::before {
 }
 
 .logo img {
-    width: 140px;
-    height: 76px;
+    /* width: 130px; */
+    height: 30px;
+    margin-left: 100px;
+    /* margin-right: 900px; */
 }
 
 .list {
@@ -57,11 +60,12 @@ nav::before {
     align-items: center;
     list-style: none;
     text-decoration: none;
+    margin-right: 490px;
 }
 
 .list li {
     margin: 0 0.9rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     color: white;
     text-decoration: none
 }
@@ -72,11 +76,12 @@ nav::before {
 
 .srch {
     position: relative;
-    width: 300px;
+    /* width: 300px; */
+    margin-right: 40px;
     height: 40px;
 }
 
-.srch input {
+/* .srch input {
     position: absolute;
     top: 0;
     left: 0;
@@ -88,7 +93,7 @@ nav::before {
     outline: none;
     border-radius: 4px;
     padding: 0 5px 0 25px;
-}
+} */
 
 .content {
     position: relative;
@@ -128,9 +133,36 @@ nav::before {
 }
 
 .para {
-    font-size: 1rem;
+    font-size: 1.2rem;
     font-weight: 500;
     line-height: 1.5em;
     color: white;
     margin: 5px 0 20px;
+}
+
+.btn1 {
+    font-size: 25px;
+    background: #fefdfd;
+    /* padding-right: 20px; */
+    color: rgb(8, 8, 8);
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+}
+
+.btn2 {
+    font-size: 25px;
+    background: #0f0f0f;
+    color: white;
+    /* padding-right: 20px; */
+    height: 35px;
+    border: none;
+    padding: 5px 10px;
+    margin-left: 10px;
+
+}
+
+.user {
+    height: 25px;
+    margin-left: 20px;
 }

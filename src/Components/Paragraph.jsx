@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import PlayArrowIcon from '@mui/icons-material/PlayArrow';
+import AddIcon from '@mui/icons-material/Add';
 
 function Paragraph() {
+    const getMovieFromAPI = async () => {
+        console.log("Function called")
+    }
+    useEffect(() => {
+        getMovieFromAPI()
+    }, [])
     return (
         <div>
             <div className='content' >
@@ -15,7 +23,12 @@ function Paragraph() {
                     Mulan is a girl, the only child of her honored family. When the Huns invade China, one man from every family is called to arms. Mulan's father, who has an old wound and cannot walk properly, decides to fight for his country and the honor of his family though it is clear that he will not survive an enemy encounter.
                     Mulan, who just got rejected by the matchmaker because she had set her on fire, decides to prove that she is worth something and steals away to fit her father's place in the Chinese army.
                 </p>
+                <div className="buttons">
+                    <button className='btn1' ><PlayArrowIcon />Play</button>
+                    <button className='btn2' ><AddIcon />Add to Playlist </button>
+                </div>
             </div>
+
         </div>
     )
 }

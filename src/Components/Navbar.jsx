@@ -1,4 +1,7 @@
 import React from 'react'
+import NotificationsNoneIcon from '@mui/icons-material/NotificationsNone';
+import SearchIcon from '@mui/icons-material/Search';
+import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 
 function Navbar() {
     return (
@@ -15,7 +18,10 @@ function Navbar() {
                     <a href="#new and popular">  <li>New and Popular</li></a>
                 </div>
                 <div className='srch' >
-                    <input type="text" placeholder='Search' />
+                    <NotificationsNoneIcon />
+                    <SearchIcon />
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" className='user' alt="" />
+                    <ArrowDropDownIcon />
 
                 </div>
 
