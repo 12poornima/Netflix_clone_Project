@@ -1,4 +1,5 @@
 import React from 'react'
+import Movielist from './Movielist'
 import Navbar from './Navbar'
 import "./Navbar.css"
 import Paragraph from './Paragraph'
@@ -9,6 +10,7 @@ function Home() {
         <div>
             <Navbar />
             <Paragraph />
+            <Movielist />
         </div>
     )
 }
