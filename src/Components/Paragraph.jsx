@@ -2,14 +2,14 @@ import React, { useEffect, useState } from 'react'
 import PlayArrowIcon from '@mui/icons-material/PlayArrow';
 import AddIcon from '@mui/icons-material/Add';
 import axios from 'axios';
+import { imagebaseURL, orginalUrl } from './Constatnts';
 
 function Paragraph() {
     const [movie, setMovie] = useState({})
-    const imagebaseURL = "https://image.tmdb.org/t/p/original"
     const getMovieFromAPI = async () => {
-        let response = await axios.get("https://api.themoviedb.org/3/trending/all/day?api_key=b3758c1df364caa5811d40dcb0b0d991")
-        console.log(response.data.results[3])
-        setMovie(response.data.results[3])
+        let response = await axios.get(orginalUrl)
+        console.log(response.data.results[6])
+        setMovie(response.data.results[1])
     }
     useEffect(() => {
         getMovieFromAPI()

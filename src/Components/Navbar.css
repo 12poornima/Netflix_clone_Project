@@ -32,6 +32,7 @@ nav {
     color: rgb(255, 251, 251);
     background-color: black;
     align-items: center;
+    position: fixed;
 
     /* position: relative; */
 }
