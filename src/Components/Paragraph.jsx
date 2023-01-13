@@ -9,7 +9,7 @@ function Paragraph() {
     const getMovieFromAPI = async () => {
         let response = await axios.get(orginalUrl)
         console.log(response.data.results[6])
-        setMovie(response.data.results[1])
+        setMovie(response.data.results[8])
     }
     useEffect(() => {
         getMovieFromAPI()
@@ -20,7 +20,7 @@ function Paragraph() {
 
                 {/* <img src="https://lumiere-a.akamaihd.net/v1/images/image_f47553c5.png" className='title' alt="" /> */}
                 <h4 className='banner' >
-                    <h1>{movie.original_title}</h1>
+                    <h1>{movie.title}</h1>
                     <span>{movie.release_date}</span>
                     <span> <i>12+</i> </span>
                     <span>1hr 55min</span>
