@@ -1,0 +1,89 @@
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.banner-movie {
+    color: rgba(255, 255, 2555, 0.5);
+    font-weight: 700;
+    /* margin-left: 900px; */
+
+}
+
+.banner-movie span {
+    padding: 0 10px;
+    border-right: 1px solid rgba(255, 255, 2555, 0.5);
+}
+
+.banner-movie span:first-child {
+    padding-left: 0;
+}
+
+.banner-movie span:last-child {
+    border-right: none;
+}
+
+.head {
+    margin-top: 20px;
+    font-weight: 900;
+
+}
+
+.banner-movie span i {
+    background: #f90b17;
+    padding: 0 8px;
+    display: inline-block;
+    font-style: normal;
+    border-radius: 2px;
+}
+
+
+.movie-content {
+    z-index: 1;
+    padding: 59px;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    /* margin-top: 60px; */
+
+}
+
+.paragraph {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5em;
+    color: rgb(253, 251, 251);
+    margin-top: 15px;
+    /* margin-left: 900px; */
+}
+
+.movie-list {
+    margin-left: 900px;
+    padding: 60px;
+}
+
+.buttons {
+    padding: 25px;
+
+}
+
+.btn1 {
+    font-size: 23px;
+    background: #fefdfd;
+    /* padding-right: 20px; */
+    color: rgb(8, 0, 0);
+    height: 34px;
+    border: none;
+    padding: 5px 5px;
+}
+
+.btn2 {
+    font-size: 23px;
+    background: #0f0f0f;
+    color: white;
+    /* padding-right: 20px; */
+    height: 34px;
+    border: none;
+    padding: 5px 5px;
+    margin-left: 10px;
+
+}

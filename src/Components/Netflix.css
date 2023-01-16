@@ -1,0 +1,157 @@
+.titles {
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+    /* background-color: blue; */
+    color: aliceblue;
+    border: none;
+    padding: 15px;
+    margin: 15px;
+}
+
+body {
+    background-image: url(https://help.nflxext.com/396a2a39-8d34-4260-b07a-6391fe04ded5_what_is_netflix_2_en.png);
+    background-size: cover;
+    padding: 55px;
+}
+
+.card1 {
+    background-color: rgb(14, 14, 14);
+    height: 650px;
+    width: 450px;
+    border-radius: 10px;
+    opacity: 0.8;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+}
+
+.title {
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+}
+
+
+.btn-contanier {
+    display: flex;
+    justify-content: end;
+    padding-right: 60px;
+}
+
+.mid-session {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mid-session input {
+    width: 320px;
+    padding: 15px 60px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(45, 44, 44);
+    color: white;
+}
+
+/* .input1 {
+    width: 200px;
+    padding: 15px 60px;
+    border: none;
+    margin: 2px;
+    background-color: rgb(45, 44, 44);
+    color: white;
+
+}
+
+.input2 {
+    width: 320px;
+    padding: 15px 60px;
+    border: none;
+    margin: 2px;
+    background-color: rgba(45, 44, 44);
+    color: white;
+}
+ */
+
+.signn {
+    color: white;
+    font-family: sans-serif;
+    margin-right: 140px;
+    padding: 30px;
+}
+
+.btn-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #e50914;
+    color: white;
+    border: none;
+    width: 325px;
+    /* padding: 15px 158px; */
+    border: none;
+    margin: 45px 50px;
+    /* font-family: sans-serif;
+    padding: 10px 15px;
+    width: 150px;
+    /* margin-left: 100px; */
+    /* align-items: center; */
+
+}
+
+.btn:hover {
+    background-color: #faa4a8;
+    color: black;
+}
+
+.paras {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.para7 {
+    color: rgb(165, 163, 163);
+    font-family: sans-serif;
+    margin-right: 119px;
+    margin-top: 30px;
+}
+
+.para8 {
+    font-family: sans-serif;
+    color: rgb(165, 163, 163);
+    margin-top: 50px;
+
+}
+
+.link-sign {
+    color: white;
+    text-decoration: none;
+    /* margin-right: 20px; */
+}
+
+.line-paras {
+    display: flex;
+    /* flex-direction: column; */
+    /* align-items: center; */
+    justify-content: space-evenly;
+    color: grey;
+    font-family: sans-serif;
+}
+
+.help {
+    color: grey;
+    text-decoration: none;
+}
